@@ -1,0 +1,39 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Logo and Image */
+#logo{
+    margin: 10px 35px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 10px 25px;
+}
+
+/* nav item */
+.menu ul 
+{
+    display: flex;
+} 
+
+.menu ul li{
+    /* color: aliceblue; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+}

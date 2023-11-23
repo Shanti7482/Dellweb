@@ -1,0 +1,13 @@
+
+
+button{
+    height: 3rem;
+    width: 7rem;
+    background: rgb(130, 174, 178);
+    color: rgb(253, 251, 252);
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7%;
+    text-transform: uppercase;
+}

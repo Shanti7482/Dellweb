@@ -1,0 +1,21 @@
+body{
+    font-family:"calibri";
+}
+.q1
+{
+    background-color: navy;
+    color:rgb(188, 125, 125);
+}
+a:link
+{
+   
+    text-decoration: none;
+}
+.q2{
+    background-color: navy;
+    color:whitesmoke;
+}
+a:hover
+{
+    color:black;
+}

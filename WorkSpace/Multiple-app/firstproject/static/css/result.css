@@ -1,0 +1,21 @@
+body
+{
+    font-family: "calibri";
+    background-color: aqua;
+    color: black;
+}
+#h1{
+    font-size: 25px;
+    color: chartreuse;
+    background-color:rgb(242, 12, 12) ;
+    width: 20%;
+}
+a:link
+{
+    
+    text-decoration: none;
+}
+a:hover
+{
+    color: blue;
+}

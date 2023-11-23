@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.title{
+  color: aqua;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.para
+{
+  color: rgb(234, 240, 240);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list
+{
+  display: flex;
+  color: aqua;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contant{
+  background: black;
+  margin:0 auto;
+  margin-top: 5rem;
+  padding: 2rem ;
+  width: 80%;
+  height: 50vh;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Registration Form</title>
+    <style>
+        input{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(163, 196, 199);">
+    <form  method="post">
+        <a href="http://localhost:8000/loginpage/login/">Home</a>
+        <h1>Registration From</h1>
+    First Name:    <input type="text" placeholder="Enter First name" required name="Username" ><br><br>
+    Middle  Name:    <input type="text" placeholder="Enter Middle   name" name="Username" ><br><br>
+    Last  Name:    <input type="text" placeholder="Enter Last name" required name="Username" ><br><br>
+    Father's Name: <input type="text" placeholder="Enter Father's name"  required name="Username" ><br><br>
+    Mother's Name:  <input type="text" placeholder="Enter Mother's name" required name="Username" ><br><br>
+    Gender :    <input type="radio" required name="Male" > Male
+                <input type="radio" required name="Male" > Female
+                <input type="radio" required name="Male" > Trangender<br><br>  
+    Contact Number: <input type="number" placeholder="+9195-------" required name="Number" ><br><br>
+    Email Id :    <input type="email" placeholder="Ex:Abcde@gmail.com" required name="Email" ><br><br>
+    <label for="img">Select image:</label>
+    <input type="file" name="img"  accept="image/*">
+    <input type="submit"><br><br>
+   
+    Address 1:
+    <textarea placeholder="Add..."></textarea><br><br>
+    Adress 2:
+    <textarea lenght="200px"></textarea><br>
+    <input type="submit"  value="registration" ><br>
+    <input style="background-color:rgb(145, 56, 114);" type="reset"  value="Reset" ><br>
+
+    </form>
+   <pre>      <a href="https://www.facebook.com/login/" target="_blank"><span class="fa fa-facebook-square" aria-hidden="true"></span></a></pre>
+                            
+   
+    
+</body>
+</html>

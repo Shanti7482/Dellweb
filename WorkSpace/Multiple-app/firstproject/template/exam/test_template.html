@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test-exam</title>
+    <link rel="stylesheet" href="{% static 'css/test_paper_style.css' %}">
+</head>
+<body>
+    <div><h1>start-test</h1></div>
+    <div class="link">
+        <a href="http://localhost:8000/exam/start-test/">Start</a>
+        <a href="http://localhost:8000/exam/get-result/">Result</a>
+    </div>
+    <!-- <h3>Who Developed by D Language</h3>
+    <input type="radio" value="a" name="option">Gudo Van rossum<br>
+    <input type="radio" value="b" name="option">Denish Ritchie<br>
+    <input type="radio" value="c" name="option">Ken Thompson<br>
+    <input type="radio" value="d" name="option">Bjarne Stroustup<br> -->
+
+    
+    <div class="q1"><h3 >{{que | upper}}</h3></div>
+    <input type="radio" value="a" name="option">{{a}}<br>
+    <input type="radio" value="b" name="option">{{b}}<br>
+    <input type="radio" value="c" name="option">{{c}}<br>
+    <input type="radio" value="d" name="option">{{d}}<br>
+    <pre>
+
+    </pre>
+    <h3 class="q2">Who Developed by Python Language</h3>
+    <input type="radio" value="b" name="option">{{b}}<br>
+    <input type="radio" value="c" name="option">{{c}}<br>
+    <input type="radio" value="d" name="option">{{d}}<br>
+    <input type="radio" value="a" name="option">{{a}}<br>
+    
+</body>
+</html>

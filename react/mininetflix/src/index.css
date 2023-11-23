@@ -1,0 +1,79 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(203, 246, 247);
+  
+}
+
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+
+
+.container
+{
+  
+  
+  /* float: left;  */
+  margin: 3rem;
+  margin-left: 5rem;
+  
+
+  
+}
+
+/*.contant{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  
+}*/
+
+img{
+
+  height: 24vh;
+  width: 50vh;
+  opacity: 0.9;
+}
+.card
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.heading{
+  padding: 2rem 0;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.7rem;
+  color:rgb(66, 65, 65);
+  background-color: rgb(219, 204, 204);
+  margin-bottom: 5rem;
+}
+
+.contant:hover{
+  box-shadow: 0px 5px 7px 5px  #a9a8a8;
+  transform: scale(1.2,1.2);
+}
+
+button{
+  outline: none;
+  border: #a9a8a8;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  /* font-family: ; */
+  
+}
